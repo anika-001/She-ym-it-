@@ -62,14 +62,7 @@ export let regdata = [
         "type": "dropdown",
         "error": false,
         "errormsg": "",
-        "options": [{
-            "value": "NGO",
-            "placeholder": "NGO"
-        },
-        {
-            "value": "Gynac",
-            "placeholder": "Gynacalogist"
-        },
+        "options": [
         {
             "value": "user",
             "placeholder": "User"

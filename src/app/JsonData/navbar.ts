@@ -14,11 +14,11 @@ export let navbar = [
         "name":"Blogs",
         "link":"/updates",
     },
-    {
-        "role":"user",
-        "name":"Community",
-        "link":"/community",
-    },
+    // {
+    //     "role":"user",
+    //     "name":"Community",
+    //     "link":"/community",
+    // },
         {
             "role":"user",
             "name":"Profile",
