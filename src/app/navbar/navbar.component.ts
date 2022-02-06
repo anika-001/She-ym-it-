@@ -46,9 +46,10 @@ export class NavbarComponent implements OnInit {
       this.router.navigate(['/signin']);
     })
   }
+
   ngAfterViewInit(): void{
 
-      
+
 
 
     // this.globalListenFunc = this.renderer.listen(this.card, 'mousemove', e => {
@@ -75,7 +76,7 @@ export class NavbarComponent implements OnInit {
 
     // if (window.pageYOffset != 0) {
     //   this.ifwhite = true;
-     
+
     // }
     // else{
     //   this.ifwhite = false;

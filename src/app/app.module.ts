@@ -36,6 +36,7 @@ import { GynacformComponent } from './gynacform/gynacform.component';
 import { CommunityComponent } from './community/community.component';
 import { DoctorsComponent } from './doctors/doctors.component';
 import { BookappointmentComponent } from './bookappointment/bookappointment.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { BookappointmentComponent } from './bookappointment/bookappointment.comp
     GynacformComponent,
     CommunityComponent,
     DoctorsComponent,
-    BookappointmentComponent
+    BookappointmentComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
@@ -77,7 +79,7 @@ import { BookappointmentComponent } from './bookappointment/bookappointment.comp
     MatSelectModule,
     BrowserAnimationsModule,
     NgbModule
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
