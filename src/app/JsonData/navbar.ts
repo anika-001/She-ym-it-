@@ -19,4 +19,9 @@ export let navbar = [
         "name":"Community",
         "link":"/community",
     },
+        {
+            "role":"user",
+            "name":"Profile",
+            "link":"/user",
+        },
 ]

@@ -22,7 +22,7 @@ import { OrdersComponent } from './orders/orders.component';
 import { DoctorsComponent } from './doctors/doctors.component';
 import { GynacformComponent } from './gynacform/gynacform.component';
 import { BookappointmentComponent } from './bookappointment/bookappointment.component';
-;
+import { UserComponent } from './user/user.component';
 const routes: Routes = [
   {
     path: "signin",
@@ -103,7 +103,11 @@ const routes: Routes = [
   {
     path: "bookappointments",
     component: BookappointmentComponent
-  }
+  },
+  {
+    path: "user",
+    component: UserComponent
+  },
 ];
 
 @NgModule({
